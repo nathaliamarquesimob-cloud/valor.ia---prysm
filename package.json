@@ -1,0 +1,18 @@
+{
+  "name": "valor-ia-prysm-backend",
+  "version": "1.0.0",
+  "description": "Backend do Valor.IA Prysm - estudo de mercado e geração de relatório (MVP)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

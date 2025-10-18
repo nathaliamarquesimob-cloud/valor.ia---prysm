@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Valor.IA — Prysm</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <h1>Valor.IA <span class="tag">Prysm</span></h1>
+      <p class="sub">Transformando dados em clareza.</p>
+    </header>
+
+    <section class="card">
+      <h2>Estudo de Mercado (MVP)</h2>
+      <div class="grid">
+        <label>Bairro <input id="bairro" placeholder="Ex.: Asa Norte" /></label>
+        <label>Tipologia <input id="tipologia" placeholder="Ex.: Kitnet" /></label>
+        <label>Área (m²) <input id="area" type="number" value="35" /></label>
+        <label>Andar <input id="andar" type="number" value="3" /></label>
+        <label>Posição Solar <input id="posicao" placeholder="Ex.: nascente" /></label>
+        <label>Lazer?
+          <select id="lazer">
+            <option value="false">Não</option>
+            <option value="true">Sim</option>
+          </select>
+        </label>
+      </div>
+      <button id="btnCalcular">Calcular</button>
+      <pre id="saida"></pre>
+      <button id="btnPDF" disabled>Baixar PDF</button>
+    </section>
+
+    <footer>
+      <small>© Valor.IA — MVP demonstrativo</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
